@@ -1,0 +1,34 @@
+Assets/Enemy/Mec.png
+FrameSize 64 64
+HotSpot 32 0
+Frame 0 0
+Frame 64 0
+Frame 128 0 
+Frame 192 0
+Frame 256 0
+Frame 320 0
+Frame 384 0
+Frame 448 0 
+Frame 512 0
+Frame 576 0
+
+Frame 0 64
+Frame 64 64
+Frame 128 64
+Frame 192 64
+Frame 256 64
+Frame 320 64
+Frame 384 64
+Frame 448 64
+Frame 512 64
+Frame 576 64
+
+Frame 0 128 
+Frame 64 128 
+Frame 128 128 
+Frame 192 128 
+
+Anim Assets/Enemy/walk_mec.anm
+Anim Assets/Enemy/damaged_Mec.anm
+Anim Assets/Enemy/reborn_Mec.anm
+Anim Assets/Enemy/idle_Mec.anm

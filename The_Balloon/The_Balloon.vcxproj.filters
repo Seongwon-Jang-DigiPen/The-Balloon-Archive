@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{05cce444-50c3-4c33-95ee-ec05a5130336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{e638c9c6-80c4-4784-b6af-606dfc1ffe60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Headers">
+      <UniqueIdentifier>{16b46850-8642-46eb-895d-e2bed857638e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Sources">
+      <UniqueIdentifier>{a257c342-2265-47a5-bca5-1a490b1fc238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Sources">
+      <UniqueIdentifier>{f6ed9d6a-fab0-4a01-a686-e08a50b3e25a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Headers">
+      <UniqueIdentifier>{bfd9dd09-3955-4bed-8731-da65dc231c88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Headers\Engine.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Headers\GameState.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Headers\Input.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Headers\Logger.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Headers\GSManager.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Headers\Window.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Headers\Vec2.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Headers\Screens.h">
+      <Filter>Game\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Headers\Tutorial.h">
+      <Filter>Game\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Headers\Item-Enemy.h">
+      <Filter>Game\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Headers\Main_Screen.h">
+      <Filter>Game\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Headers\Splash.h">
+      <Filter>Game\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Headers\Texture.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Headers\MapEditor.h">
+      <Filter>Game\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Headers\Objects.h">
+      <Filter>Game\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Headers\Camera.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Headers\Prince.h">
+      <Filter>Game\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Headers\UI.h">
+      <Filter>Game\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Headers\Pause.h">
+      <Filter>Game\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Headers\Block.h">
+      <Filter>Game\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Headers\Setting.h">
+      <Filter>Game\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Headers\Sound.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Headers\GameOver.h">
+      <Filter>Game\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Headers\Credit.h">
+      <Filter>Game\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Headers\GameMap.h">
+      <Filter>Game\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Headers\Areas.h">
+      <Filter>Game\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Headers\Sprite.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Headers\Animation.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Headers\TextureManager.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Headers\Particle.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Headers\Effect.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Headers\EffectManager.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Headers\CutScene.h">
+      <Filter>Game\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Headers\SaveManager.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Headers\Chapter2.h">
+      <Filter>Game\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Headers\BlockImgs.h">
+      <Filter>Game\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\Sources\Engine.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Sources\Input_doodle.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Sources\Input.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Sources\Logger.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Sources\GSManager.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Sources\Window.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sources\Tutorial.cpp">
+      <Filter>Game\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Game\Sources\Item-Enemy.cpp">
+      <Filter>Game\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sources\Main_Screen.cpp">
+      <Filter>Game\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sources\Splash.cpp">
+      <Filter>Game\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Sources\Texture.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sources\MapEditor.cpp">
+      <Filter>Game\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sources\Objects.cpp">
+      <Filter>Game\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Sources\Camera.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sources\Prince.cpp">
+      <Filter>Game\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sources\UI.cpp">
+      <Filter>Game\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sources\Pause.cpp">
+      <Filter>Game\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sources\Block.cpp">
+      <Filter>Game\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sources\Setting.cpp">
+      <Filter>Game\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Sources\Sound.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sources\GameOver.cpp">
+      <Filter>Game\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sources\Credit.cpp">
+      <Filter>Game\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sources\GameMap.cpp">
+      <Filter>Game\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sources\Areas.cpp">
+      <Filter>Game\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Sources\Sprite.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Sources\Animation.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Sources\TextureManager.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sources\PrinceState.cpp">
+      <Filter>Game\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Sources\Particle.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Sources\Effect.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sources\CutScene.cpp">
+      <Filter>Game\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Sources\SaveManager.cpp">
+      <Filter>Engine\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sources\Chapter2.cpp">
+      <Filter>Game\Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Engine\Headers\Vec2.inl">
+      <Filter>Engine\Headers</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,31 @@
+Assets/Back/Chap2_Star.png
+FrameSize 1280 720
+Frame 0 0
+Frame 1280 0
+Frame 2560 0
+Frame 3840 0
+Frame 5120 0
+Frame 6400 0
+Frame 7680 0
+Frame 8960 0
+
+Frame 0 721
+Frame 1280 721
+Frame 2560 721
+Frame 3840 721
+Frame 5120 721
+Frame 6400 721
+Frame 7680 721
+Frame 8960 721
+
+Frame 0 1442
+Frame 1280 1442
+Frame 2560 1442
+Frame 3840 1442
+Frame 5120 1442
+Frame 6400 1442
+Frame 7680 1442
+Frame 8960 1442
+
+
+Anim Assets/Back/chap2_star.anm

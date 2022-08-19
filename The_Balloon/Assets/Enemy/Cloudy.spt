@@ -1,0 +1,23 @@
+Assets/Enemy/Cloudy.png
+FrameSize 64 64
+HotSpot 32 0
+Frame 0 0
+Frame 64 0
+Frame 128 0 
+Frame 192 0
+Frame 256 0
+Frame 320 0
+Frame 384 0
+Frame 448 0
+Frame 512 0 
+Frame 576 0
+
+Frame 0 64
+Frame 65 64
+Frame 129 64
+Frame 193 64
+Frame 257 64
+Frame 322 64
+
+Anim Assets/Enemy/walk_Cloudy.anm
+Anim Assets/Enemy/damaged_Pinny.anm

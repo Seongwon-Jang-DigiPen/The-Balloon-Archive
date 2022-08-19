@@ -1,0 +1,70 @@
+/*
+File Name: Animation.h
+Project Name: The balloon
+Author(s)
+Main:Sehun Kim
+All content 2021 DigiPen (USA) Corporation, all rights reserved.
+ */
+
+#pragma once
+#include <vector>
+#include "Engine.h"
+#include <filesystem>
+
+namespace DOG {
+	class Animation {
+	public:
+		Animation();
+		Animation(const std::filesystem::path& fileName);
+		~Animation();
+		void Update(double dt);
+		int GetDisplayFrame();
+		void ResetAnimation();
+		bool IsAnimationDone();
+		int GetAnimationIndex();
+	private:
+		enum class Command {
+			PlayFrame,
+			Loop,
+			End,
+		};
+		class CommandData {
+		public:
+			virtual ~CommandData() {}
+			virtual Command GetType() = 0;
+		};
+		class PlayFrame : public CommandData {
+		public:
+			PlayFrame(int frame, double duration);
+			virtual Command GetType() override { return Command::PlayFrame; }
+			void Update(double dt);
+			bool IsFrameDone();
+			void ResetTime();
+			int GetFrameNum();
+		private:
+			int frame;
+			double targetTime;
+			double timer;
+		};
+		class Loop : public CommandData {
+		public:
+			Loop(int loopToIndex);
+			virtual Command GetType() override { return Command::Loop; }
+			int GetLoopToIndex();
+		private:
+			int loopToIndex;
+		};
+		class End : public CommandData {
+		public:
+			virtual Command GetType() override { return Command::End; }
+		private:
+		};
+
+		bool isAnimationDone;
+		int animSequenceIndex;
+		PlayFrame* currPlayFrameData;
+		std::vector<CommandData*> animation;
+	};
+}
+
+

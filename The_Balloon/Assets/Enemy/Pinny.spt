@@ -1,0 +1,25 @@
+Assets/Enemy/Pinny.png
+FrameSize 64 64
+HotSpot 32 0
+Frame 0 0
+Frame 64 0
+Frame 128 0 
+Frame 192 0
+Frame 256 0
+Frame 320 0
+
+Frame 0 64
+Frame 64 64
+Frame 128 64
+Frame 192 64
+
+Frame 0 128 
+Frame 64 128 
+Frame 128 128 
+Frame 192 128 
+Frame 256 128 
+Frame 320 128
+
+Anim Assets/Enemy/idle_Pinny.anm
+Anim Assets/Enemy/walk_Pinny.anm
+Anim Assets/Enemy/damaged_Pinny.anm

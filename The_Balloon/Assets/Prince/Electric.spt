@@ -1,0 +1,46 @@
+Assets/Prince/Electric.png
+FrameSize 64 64
+HotSpot 32 0
+Frame 0 0
+Frame 64 0
+Frame 128 0 
+Frame 192 0
+Frame 256 0
+Frame 320 0
+Frame 384 0
+
+Frame 0 64
+Frame 64 64
+Frame 128 64
+Frame 192 64
+Frame 256 64
+Frame 320 64
+Frame 384 64
+Frame 448 64
+Frame 512 64
+Frame 576 64
+
+Frame 0 128 
+Frame 64 128 
+Frame 128 128 
+Frame 192 128 
+Frame 256 128 
+Frame 320 128 
+Frame 384 128 
+Frame 448 128 
+Frame 512 128 
+Frame 576 128 
+
+Frame 0 192
+Frame 64 192
+Frame 128 192
+Frame 192 192
+Frame 256 192
+Frame 320 192
+Frame 384 192
+
+Anim Assets/Prince/idle.anm
+Anim Assets/Prince/walk.anm
+Anim Assets/Prince/jump.anm
+Anim Assets/Prince/fall.anm
+Anim Assets/Prince/damaged.anm

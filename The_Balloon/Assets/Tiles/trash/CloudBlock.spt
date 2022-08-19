@@ -1,0 +1,13 @@
+Assets/Tiles/CloudBlock.png
+FrameSize 96 96
+Frame 0 0
+Frame 96 0
+Frame 192 0
+Frame 288 0
+Frame 384 0
+Frame 480 0
+Frame 576 0
+Frame 672 0
+Frame 768 0
+
+Anim Assets/Tiles/CloudBlock.anm

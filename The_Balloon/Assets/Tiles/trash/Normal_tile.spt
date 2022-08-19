@@ -1,0 +1,29 @@
+Assets/Tiles/Normal_tile_1.png
+FrameSize 78 64
+Frame 0 1
+Frame 78 1
+Frame 156 1
+Frame 234 1
+Frame 312 1
+Frame 390 1
+Frame 468 1
+Frame 546 1
+Frame 624 1
+
+Frame 0 67
+Frame 78 67
+Frame 156 67
+Frame 234 67
+Frame 312 67
+Frame 390 67
+Frame 468 67
+Frame 546 67
+Frame 624 67
+
+Frame 0 133
+Frame 78 133
+Frame 156 133
+Frame 234 133
+Frame 312 133
+
+Anim Assets/Tiles/Normal_tile.anm
