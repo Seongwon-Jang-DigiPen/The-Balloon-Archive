@@ -1,4 +1,4 @@
-/*
+/* my work
 File Name: Effect.h
 Project Name: The balloon
 Author(s)
